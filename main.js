@@ -5,7 +5,7 @@ fetch(url)
         return response.json()
     })
     .then((data) => {
-        console.log(data);
+        console.log(data[0]);
     })
     .catch((erro) => {
         console.log(`Opa, aconteceu um erro: \n${erro} `);
